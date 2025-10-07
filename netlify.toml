@@ -1,0 +1,15 @@
+[build]
+  # Directorio base donde está la aplicación
+  base = "weather-app/"
+  
+  # Comando para construir la aplicación
+  command = "npm run build"
+  
+  # Directorio que contiene los archivos construidos
+  publish = "weather-app/dist"
+
+# Configuración para que las rutas funcionen correctamente en una SPA
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
