@@ -5,8 +5,8 @@
   # Comando para construir la aplicación
   command = "npm run build"
   
-  # Directorio que contiene los archivos construidos
-  publish = "weather-app/dist"
+  # Directorio que contiene los archivos construidos (relativo al base)
+  publish = "dist"
 
 # Configuración para que las rutas funcionen correctamente en una SPA
 [[redirects]]
